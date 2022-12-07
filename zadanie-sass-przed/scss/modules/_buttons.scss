@@ -1,0 +1,68 @@
+/***/
+/*==========  5.1 - Buttons  ==========*/
+
+.btn-primary {
+	color: $color-text-primary;
+	background-color: $color-link;
+	border-color: $color-link;
+	text-transform: $text-transform-base;
+	padding: 10px 12px;
+	margin-bottom: $baseline;
+
+	@media (min-width: 1200px) {
+		background-color: $color-btn-secondary-bg;
+	}
+}
+
+.btn-primary:hover {
+	color: $color-text-primary-darker;
+	background-color: $color-link-hover;
+	border-color: $color-link-hover;
+
+	@media (min-width: 1200px) {
+		background-color: $color-btn-secondary-bg-hover;
+	}
+}
+
+.btn-default {
+	margin: 5px 5px 5px 0px;
+	color: $color-text-light;
+	background-color: transparent;
+	border-color: $color-text-light;
+
+	@media (min-width: 1200px) {
+		background-color: $color-btn-secondary-bg;
+	}
+}
+
+.btn-default:hover {
+	color: $color-text-light;
+	background-color: transparent;
+	border-color: $color-text-light;
+
+	@media (min-width: 1200px) {
+		background-color: $color-btn-secondary-bg-hover;
+	}
+}
+
+.btn-success {
+	color: $color-text-primary;
+	background-color: $color-link;
+	border-color: $color-link;
+	text-transform: $text-transform-base;
+	padding: 10px 12px;
+
+	@media (min-width: 1200px) {
+		background-color: $color-btn-secondary-bg;
+	}
+}
+
+.btn-success:hover {
+	color: $color-text-primary-darker;
+	background-color: $color-link-hover;
+	border-color: $color-link-hover;
+
+	@media (min-width: 1200px) {
+		background-color: $color-btn-secondary-bg-hover;
+	}
+}
