@@ -6095,6 +6095,11 @@ fieldset[disabled] .btn-default.active {
   background-color: #337ab7;
   border-color: #2e6da4;
 }
+@media (min-width: 1200px) {
+  .btn-primary {
+    background-color: #a5e200;
+  }
+}
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -11189,6 +11194,12 @@ header.header-image .header-content .header-content-inner h5 {
   margin: 0;
   z-index: 11;
 }
+@media (min-width: 1200px) {
+  .carousel .carousel-control .icon-prev,
+.carousel .carousel-control .icon-next {
+    background-color: #a5e200;
+  }
+}
 .carousel .carousel-control .icon-prev {
   -webkit-border-top-right-radius: 8px;
   -webkit-border-bottom-right-radius: 8px;
@@ -12767,4 +12778,4 @@ form fieldset input[name=comment], form fieldset input[name=message] {
     margin-top: 100px;
   }
 }
-/*-----  End of 6.0 - Theme  ------*/
+/*-----  End of 6.0 - Theme  ------*//*# sourceMappingURL=main.css.map */
