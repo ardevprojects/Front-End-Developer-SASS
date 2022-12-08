@@ -38,6 +38,10 @@ header.header-image {
     line-height: $base-font-size * 2;
     font-size: $base-font-size;
 
+    @media (min-width: 1200px) {
+        background-color: $color-secondary-background;
+    }
+
     .phone {
         height: $base-font-size * 2;
     }
@@ -69,6 +73,13 @@ header.header-image {
         }
     }
 }
+
+// @media (min-width: 1200px) {
+//     .header-contact {
+//         background-color: $color-secondary-background;
+//     }
+// }
+
 
 @media(min-width: 768px) and (max-width: 992px) {
 
@@ -165,12 +176,5 @@ header.header-image {
                 color: $color-primary-darker;
             }
         }
-    }
-}
-
-@media(min-width: 1200px) {
-
-    .header-contact {
-        background-color: $color-secondary-background;
     }
 }

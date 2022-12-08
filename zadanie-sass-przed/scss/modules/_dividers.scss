@@ -15,6 +15,7 @@ hr.divider-light-dark {
 
     @media (min-width: 1200px) {
         width: 150px;
+        border-color: $color-secondary;
     }
 }
 
@@ -26,5 +27,7 @@ hr.divider-light {
     @media (min-width: 1200px) {
         width: 25px;
         opacity: .5;
+        border-color: $color-secondary;
+
     }
 }

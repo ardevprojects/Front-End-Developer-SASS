@@ -10,8 +10,8 @@
 	margin-bottom: $baseline;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-link;
-		border-color: $color-btn-secondary-link;
+		background-color: $color-secondary-link;
+		border-color: $color-secondary-link;
 	}
 }
 
@@ -21,8 +21,8 @@
 	border-color: $color-link-hover;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-link-hover;
-		border-color: $color-btn-secondary-link-hover;
+		background-color: $color-secondary-link-hover;
+		border-color: $color-secondary-link-hover;
 	}
 }
 
@@ -47,8 +47,8 @@
 	padding: 10px 12px;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-link;
-		border-color: $color-btn-secondary-link;
+		background-color: $color-secondary-link;
+		border-color: $color-secondary-link;
 	}
 }
 
@@ -58,7 +58,7 @@
 	border-color: $color-link-hover;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-link-hover;
-		border-color: $color-btn-secondary-link-hover;
+		background-color: $color-secondary-link-hover;
+		border-color: $color-secondary-link-hover;
 	}
 }

@@ -64,10 +64,18 @@ body {
 	a {
 		color: $color-link;
 		text-decoration: none;
+
+		@media (min-width: 1200px) {
+			color: $color-secondary-link;
+		}
 	}
 
 	a:hover {
 		color: $color-link-hover;
+
+		@media (min-width: 1200px) {
+			color: $color-secondary-link-hover;
+		}
 	}
 
 	.overlay {

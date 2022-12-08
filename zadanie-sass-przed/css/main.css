@@ -10731,8 +10731,18 @@ body a {
   color: #2eb6d1;
   text-decoration: none;
 }
+@media (min-width: 1200px) {
+  body a {
+    color: #a5e200;
+  }
+}
 body a:hover {
   color: #238a9e;
+}
+@media (min-width: 1200px) {
+  body a:hover {
+    color: #88ba00;
+  }
 }
 body .overlay {
   position: absolute;
@@ -10830,6 +10840,11 @@ header.header-image .header-content .header-content-inner h5 {
   height: 32px;
   line-height: 32px;
   font-size: 16px;
+}
+@media (min-width: 1200px) {
+  .header-contact {
+    background-color: #f4fad4;
+  }
 }
 .header-contact .phone {
   height: 32px;
@@ -10929,11 +10944,6 @@ header.header-image .header-content .header-content-inner h5 {
 .header-contact ul .fa-linkedin:hover,
 .header-contact ul .fa-google-plus:hover {
     color: #238a9e;
-  }
-}
-@media (min-width: 1200px) {
-  .header-contact {
-    background-color: #f0f4dc;
   }
 }
 /***/
@@ -11524,7 +11534,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 @media (min-width: 1200px) {
   #slider-testimonials {
-    background-color: #f0f4dc;
+    background-color: #f4fad4;
   }
 }
 #slider-testimonials .carousel-inner {
@@ -11675,6 +11685,7 @@ header.header-image .header-content .header-content-inner h5 {
 @media (min-width: 1200px) {
   .btn-primary {
     background-color: #a5e200;
+    border-color: #a5e200;
   }
 }
 
@@ -11686,6 +11697,7 @@ header.header-image .header-content .header-content-inner h5 {
 @media (min-width: 1200px) {
   .btn-primary:hover {
     background-color: #88ba00;
+    border-color: #88ba00;
   }
 }
 
@@ -11695,21 +11707,11 @@ header.header-image .header-content .header-content-inner h5 {
   background-color: transparent;
   border-color: #979797;
 }
-@media (min-width: 1200px) {
-  .btn-default {
-    background-color: #a5e200;
-  }
-}
 
 .btn-default:hover {
   color: #979797;
   background-color: transparent;
   border-color: #979797;
-}
-@media (min-width: 1200px) {
-  .btn-default:hover {
-    background-color: #88ba00;
-  }
 }
 
 .btn-success {
@@ -11722,6 +11724,7 @@ header.header-image .header-content .header-content-inner h5 {
 @media (min-width: 1200px) {
   .btn-success {
     background-color: #a5e200;
+    border-color: #a5e200;
   }
 }
 
@@ -11733,6 +11736,7 @@ header.header-image .header-content .header-content-inner h5 {
 @media (min-width: 1200px) {
   .btn-success:hover {
     background-color: #88ba00;
+    border-color: #88ba00;
   }
 }
 
@@ -11753,6 +11757,7 @@ hr.divider-light-dark {
 @media (min-width: 1200px) {
   hr.divider-light-dark {
     width: 150px;
+    border-color: #a5e200;
   }
 }
 
@@ -11765,6 +11770,7 @@ hr.divider-light {
   hr.divider-light {
     width: 25px;
     opacity: 0.5;
+    border-color: #a5e200;
   }
 }
 
@@ -11917,40 +11923,55 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   background-color: #2eb6d1;
   margin: 0 auto 24px;
 }
+@media (min-width: 1200px) {
+  .t108-one-page #about .about-box .icon-about {
+    color: #a5e200;
+  }
+}
 @media (max-width: 768px) {
   .t108-one-page #about {
     margin-top: 60px;
   }
 }
-.t108-one-page #counters-numbers, .t108-one-page #counters-progress {
+.t108-one-page #counters-numbers,
+.t108-one-page #counters-progress {
   height: auto;
   width: 100%;
   position: relative;
   padding: 96px 0;
 }
-.t108-one-page #counters-numbers .container, .t108-one-page #counters-progress .container {
+.t108-one-page #counters-numbers .container,
+.t108-one-page #counters-progress .container {
   position: relative;
   z-index: 11;
 }
-.t108-one-page #counters-numbers .container p, .t108-one-page #counters-numbers .container h4, .t108-one-page #counters-progress .container p, .t108-one-page #counters-progress .container h4 {
+.t108-one-page #counters-numbers .container p,
+.t108-one-page #counters-numbers .container h4,
+.t108-one-page #counters-progress .container p,
+.t108-one-page #counters-progress .container h4 {
   color: #ffffff;
 }
-.t108-one-page #counters-numbers .container .counters-box, .t108-one-page #counters-progress .container .counters-box {
+.t108-one-page #counters-numbers .container .counters-box,
+.t108-one-page #counters-progress .container .counters-box {
   margin: 72px auto 0;
 }
-.t108-one-page #counters-numbers .container .counters-box h1, .t108-one-page #counters-progress .container .counters-box h1 {
+.t108-one-page #counters-numbers .container .counters-box h1,
+.t108-one-page #counters-progress .container .counters-box h1 {
   font-size: 58px;
   color: #ffffff;
 }
-.t108-one-page #counters-numbers .container .counters-box h6, .t108-one-page #counters-progress .container .counters-box h6 {
+.t108-one-page #counters-numbers .container .counters-box h6,
+.t108-one-page #counters-progress .container .counters-box h6 {
   color: #ffffff;
 }
-.t108-one-page #counters-numbers .container .counters-box p, .t108-one-page #counters-progress .container .counters-box p {
+.t108-one-page #counters-numbers .container .counters-box p,
+.t108-one-page #counters-progress .container .counters-box p {
   margin-bottom: 0;
   color: #ffffff;
   margin: 24px auto;
 }
-.t108-one-page #counters-numbers .container .counters-box .text-primary, .t108-one-page #counters-progress .container .counters-box .text-primary {
+.t108-one-page #counters-numbers .container .counters-box .text-primary,
+.t108-one-page #counters-progress .container .counters-box .text-primary {
   color: #2eb6d1;
 }
 .t108-one-page #counters-numbers {
@@ -12038,6 +12059,12 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   line-height: 72px;
   border: 2px solid #2eb6d1;
 }
+@media (min-width: 1200px) {
+  .t108-one-page #counters-services .icon-services {
+    color: #a5e200;
+    border: 2px solid #a5e200;
+  }
+}
 .t108-one-page #counters-services .counters-box {
   margin: 0 auto 72px;
 }
@@ -12103,7 +12130,9 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-.t108-one-page #team .container ul.social-buttons li a:hover, .t108-one-page #team .container ul.social-buttons li a:focus, .t108-one-page #team .container ul.social-buttons li a:active {
+.t108-one-page #team .container ul.social-buttons li a:hover,
+.t108-one-page #team .container ul.social-buttons li a:focus,
+.t108-one-page #team .container ul.social-buttons li a:active {
   background-color: #2eb6d1;
 }
 @media (max-width: 768px) {
@@ -12577,28 +12606,13 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   color: #2eb6d1;
   border: 2px solid #2eb6d1;
 }
-@media (min-width: 1200px) {
-  #icon-variants .gallery-columns .icon-services-blue {
-    background-color: #a5e200;
-  }
-}
 #icon-variants .gallery-columns .icon-services-bright {
   color: #dddddd;
   border: 2px solid #dddddd;
 }
-@media (min-width: 1200px) {
-  #icon-variants .gallery-columns .icon-services-bright {
-    background-color: #a5e200;
-  }
-}
 #icon-variants .gallery-columns .icon-services-dark {
   color: #222222;
   border: 2px solid #222222;
-}
-@media (min-width: 1200px) {
-  #icon-variants .gallery-columns .icon-services-dark {
-    background-color: #a5e200;
-  }
 }
 #icon-variants .gallery-columns .divider-light-blue,
 #icon-variants .gallery-columns .divider-light-bright,
@@ -12770,10 +12784,22 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   border-color: #2eb6d1;
   border-radius: 0px;
 }
+@media (min-width: 1200px) {
+  #interactive-elements #buttons .rectangle-buttons .btn-primary,
+#interactive-elements #buttons .rectangle-buttons .btn-success {
+    background-color: #a5e200;
+  }
+}
 #interactive-elements #buttons .rectangle-buttons .btn-primary:hover,
 #interactive-elements #buttons .rectangle-buttons .btn-success:hover {
   background-color: #2eb6d1;
   border-color: #2eb6d1;
+}
+@media (min-width: 1200px) {
+  #interactive-elements #buttons .rectangle-buttons .btn-primary:hover,
+#interactive-elements #buttons .rectangle-buttons .btn-success:hover {
+    background-color: #88ba00;
+  }
 }
 #interactive-elements #buttons .rectangle-buttons .btn-primary {
   width: 156px;
@@ -12788,10 +12814,22 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   border-color: #2eb6d1;
   border-radius: 0px;
 }
+@media (min-width: 1200px) {
+  #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-primary,
+#interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-success {
+    background-color: #a5e200;
+  }
+}
 #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-primary:hover,
 #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-success:hover {
   background-color: #238a9e;
   border-color: #238a9e;
+}
+@media (min-width: 1200px) {
+  #interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-primary:hover,
+#interactive-elements #buttons .rectangle-buttons .buttons-hover .btn-success:hover {
+    background-color: #88ba00;
+  }
 }
 @media (max-width: 768px) {
   #interactive-elements #buttons .rectangle-buttons {

@@ -17,9 +17,10 @@
 			line-height: $base-font-size * 2.2;
 			margin: $margin-none;
 			z-index: 11;
+
 			@media (min-width: 1200px) {
-				background-color: $color-secondary; 
-			  }
+				background-color: $color-secondary;
+			}
 		}
 
 		.icon-prev {

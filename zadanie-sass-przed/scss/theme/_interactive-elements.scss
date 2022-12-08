@@ -157,12 +157,20 @@
 				background-color: $color-link;
 				border-color: $color-link;
 				border-radius: 0px;
+
+				@media (min-width: 1200px) {
+					background-color: $color-btn-secondary-bg;
+				}
 			}
 
 			.btn-primary:hover,
 			.btn-success:hover {
 				background-color: $color-link;
 				border-color: $color-link;
+
+				@media (min-width: 1200px) {
+					background-color: $color-btn-secondary-bg-hover;
+				}
 			}
 
 			.btn-primary {
@@ -181,12 +189,20 @@
 					background-color: $color-link;
 					border-color: $color-link;
 					border-radius: 0px;
+
+					@media (min-width: 1200px) {
+						background-color: $color-btn-secondary-bg;
+					}
 				}
 
 				.btn-primary:hover,
 				.btn-success:hover {
 					background-color: $color-link-hover;
 					border-color: $color-link-hover;
+
+					@media (min-width: 1200px) {
+						background-color: $color-btn-secondary-bg-hover;
+					}
 				}
 			}
 		}
