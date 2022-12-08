@@ -73,27 +73,27 @@
 			color: $color-primary;
 			border: 2px solid $color-primary;
 
-			@media (min-width: 1200px) {
-				background-color: $color-secondary;
-			}
+			// @media (min-width: 1200px) {
+			// 	color: $color-secondary;
+			// }
 		}
 
 		.icon-services-bright {
 			color: $color-border;
 			border: 2px solid $color-border;
 
-			@media (min-width: 1200px) {
-				background-color: $color-secondary;
-			}
+			// @media (min-width: 1200px) {
+			// 	color: $color-secondary;
+			// }
 		}
 
 		.icon-services-dark {
 			color: $color-headings;
 			border: 2px solid $color-headings;
 
-			@media (min-width: 1200px) {
-				background-color: $color-secondary;
-			}
+			// @media (min-width: 1200px) {
+			// 	color: $color-secondary;
+			// }
 		}
 
 		.divider-light-blue,
