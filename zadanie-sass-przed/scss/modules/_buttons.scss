@@ -10,7 +10,8 @@
 	margin-bottom: $baseline;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-bg;
+		background-color: $color-btn-secondary-link;
+		border-color: $color-btn-secondary-link;
 	}
 }
 
@@ -20,7 +21,8 @@
 	border-color: $color-link-hover;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-bg-hover;
+		background-color: $color-btn-secondary-link-hover;
+		border-color: $color-btn-secondary-link-hover;
 	}
 }
 
@@ -29,20 +31,12 @@
 	color: $color-text-light;
 	background-color: transparent;
 	border-color: $color-text-light;
-
-	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-bg;
-	}
 }
 
 .btn-default:hover {
 	color: $color-text-light;
 	background-color: transparent;
 	border-color: $color-text-light;
-
-	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-bg-hover;
-	}
 }
 
 .btn-success {
@@ -53,7 +47,8 @@
 	padding: 10px 12px;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-bg;
+		background-color: $color-btn-secondary-link;
+		border-color: $color-btn-secondary-link;
 	}
 }
 
@@ -63,6 +58,7 @@
 	border-color: $color-link-hover;
 
 	@media (min-width: 1200px) {
-		background-color: $color-btn-secondary-bg-hover;
+		background-color: $color-btn-secondary-link-hover;
+		border-color: $color-btn-secondary-link-hover;
 	}
 }
