@@ -28,8 +28,11 @@
                 margin: $margin-none auto $baseline;
 
                 @media (min-width: 1200px) {
-                    color: $color-secondary;
-                }
+                    background-color: $color-secondary;
+                    width: 96px;
+                    height: 96px;
+                    justify-content: center;
+                    align-items: center;                }
             }
         }
     }
@@ -77,6 +80,9 @@
 
                 .text-primary {
                     color: $color-primary;
+                    @media (min-width: 1200px) {
+                        color: $color-secondary;
+                    }
                 }
             }
         }
@@ -147,6 +153,10 @@
                 -moz-transition: all .35s;
                 transition: all .35s;
 
+                @media (min-width: 1200px) {
+                    transition: 1s;
+                }
+
                 .portfolio-box-caption-content {
                     position: absolute;
                     top: $position-top-text-portfolio;
@@ -206,6 +216,13 @@
         }
     }
 
+    .icon-services:hover {
+        @media (min-width: 1200px) {
+            transform: rotate(-45deg);
+            transition: .5s;
+        }
+    }
+
     @media(max-width: 768px) {
 
         #counters-services {
@@ -258,6 +275,10 @@
 
             ul.social-buttons {
                 margin: ($baseline * 2) auto ($baseline * 3);
+
+                    @media (min-width: 1200px) {
+                        font-size: 25px;
+                    }
 
                 li a {
                     display: block;

@@ -10841,11 +10841,6 @@ header.header-image .header-content .header-content-inner h5 {
   line-height: 32px;
   font-size: 16px;
 }
-@media (min-width: 1200px) {
-  .header-contact {
-    background-color: #f4fad4;
-  }
-}
 .header-contact .phone {
   height: 32px;
 }
@@ -10939,6 +10934,16 @@ header.header-image .header-content .header-content-inner h5 {
 .header-contact ul .fa-google-plus {
     color: #2eb6d1;
   }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .header-contact ul .fa-twitter,
+.header-contact ul .fa-facebook,
+.header-contact ul .fa-linkedin,
+.header-contact ul .fa-google-plus {
+    color: #a5e200;
+  }
+}
+@media (min-width: 768px) {
   .header-contact ul .fa-twitter:hover,
 .header-contact ul .fa-facebook:hover,
 .header-contact ul .fa-linkedin:hover,
@@ -10946,6 +10951,20 @@ header.header-image .header-content .header-content-inner h5 {
     color: #238a9e;
   }
 }
+@media (min-width: 768px) and (min-width: 1200px) {
+  .header-contact ul .fa-twitter:hover,
+.header-contact ul .fa-facebook:hover,
+.header-contact ul .fa-linkedin:hover,
+.header-contact ul .fa-google-plus:hover {
+    color: #a5e200;
+  }
+}
+@media (min-width: 1200px) {
+  .header-contact {
+    background-color: #f4fad4;
+  }
+}
+
 /***/
 /*==========  4.2 - Main styles  ==========*/
 /***/
@@ -11194,7 +11213,7 @@ header.header-image .header-content .header-content-inner h5 {
     color: #979797;
   }
 }
-@media (min-width: 768px) and (max-width: 1214px) {
+@media (min-width: 768px) and (max-width: 1999px) {
   .navbar-default .container {
     width: 100%;
   }
@@ -11222,6 +11241,11 @@ header.header-image .header-content .header-content-inner h5 {
     padding-bottom: 15px;
     padding-right: 0;
     padding-left: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-default {
+    background-color: #f4fad4;
   }
 }
 /***/
@@ -11602,6 +11626,11 @@ header.header-image .header-content .header-content-inner h5 {
 .t108-footer {
   background-color: #222222;
 }
+@media (min-width: 1200px) {
+  .t108-footer {
+    padding-top: 80px;
+  }
+}
 .t108-footer .footer-above {
   padding-top: 48px;
 }
@@ -11628,6 +11657,11 @@ header.header-image .header-content .header-content-inner h5 {
 }
 .t108-footer .footer-above .footer-col .contact .fa-twitter, .t108-footer .footer-above .footer-col .tweets .fa-twitter {
   color: #2eb6d1;
+}
+@media (min-width: 1200px) {
+  .t108-footer .footer-above .footer-col .contact .fa-twitter, .t108-footer .footer-above .footer-col .tweets .fa-twitter {
+    color: #a5e200;
+  }
 }
 .t108-footer .footer-above .footer-col .tweets a:hover {
   color: #238a9e;
@@ -11925,7 +11959,11 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 }
 @media (min-width: 1200px) {
   .t108-one-page #about .about-box .icon-about {
-    color: #a5e200;
+    background-color: #a5e200;
+    width: 96px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
@@ -11973,6 +12011,12 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 .t108-one-page #counters-numbers .container .counters-box .text-primary,
 .t108-one-page #counters-progress .container .counters-box .text-primary {
   color: #2eb6d1;
+}
+@media (min-width: 1200px) {
+  .t108-one-page #counters-numbers .container .counters-box .text-primary,
+.t108-one-page #counters-progress .container .counters-box .text-primary {
+    color: #a5e200;
+  }
 }
 .t108-one-page #counters-numbers {
   background: url(../images/counters/counters_numbers.jpg) no-repeat 50% 0 fixed;
@@ -12030,6 +12074,11 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+@media (min-width: 1200px) {
+  .t108-one-page #portfolio .portfolio-box .portfolio-box-caption {
+    transition: 1s;
+  }
+}
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -12076,6 +12125,12 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   margin-left: 0;
   margin-bottom: 20px;
 }
+@media (min-width: 1200px) {
+  .t108-one-page .icon-services:hover {
+    transform: rotate(-45deg);
+    transition: 0.5s;
+  }
+}
 @media (max-width: 768px) {
   .t108-one-page #counters-services .counters-box {
     text-align: center;
@@ -12116,6 +12171,11 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 }
 .t108-one-page #team .container ul.social-buttons {
   margin: 48px auto 72px;
+}
+@media (min-width: 1200px) {
+  .t108-one-page #team .container ul.social-buttons {
+    font-size: 25px;
+  }
 }
 .t108-one-page #team .container ul.social-buttons li a {
   display: block;
@@ -12167,6 +12227,11 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   color: #2eb6d1;
   width: 16px;
   font-variant: super;
+}
+@media (min-width: 1200px) {
+  #single-post .comment p .fa-fw {
+    color: #a5e200;
+  }
 }
 #single-post .comment a {
   text-decoration: none;
@@ -12902,4 +12967,4 @@ form fieldset input[name=comment], form fieldset input[name=message] {
     margin-top: 100px;
   }
 }
-/*-----  End of 6.0 - Theme  ------*/
+/*-----  End of 6.0 - Theme  ------*//*# sourceMappingURL=main.css.map */

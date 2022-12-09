@@ -297,7 +297,7 @@
     }
 }
 
-@media(min-width: 768px) and (max-width: 1214px) {
+@media(min-width: 768px) and (max-width: 1999px) {
 
     .navbar-default {
 
@@ -338,5 +338,11 @@
             padding-right: 0;
             padding-left: 5px;
         }
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-default {
+        background-color: $color-secondary-background;
     }
 }

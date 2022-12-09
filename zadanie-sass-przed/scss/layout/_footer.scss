@@ -3,6 +3,9 @@
 
 .t108-footer {
 	background-color: $color-footer;
+	@media (min-width: 1200px) {
+		padding-top: 80px;
+	}
 
 	.footer-above {
 		padding-top: $baseline * 2;
@@ -41,6 +44,9 @@
 
 				.fa-twitter {
 					color: $color-primary;
+					@media (min-width: 1200px) {
+						color: $color-secondary;
+					}
 				}
 			}
 

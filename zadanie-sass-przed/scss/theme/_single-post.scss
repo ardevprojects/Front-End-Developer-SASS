@@ -27,6 +27,9 @@
 				color: $color-primary;
 				width: $base-font-size;
 				font-variant: super;
+				@media (min-width: 1200px) {
+					color: $color-secondary;
+				}
 			}
 		}
 
