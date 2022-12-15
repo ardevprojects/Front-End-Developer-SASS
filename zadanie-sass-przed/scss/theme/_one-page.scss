@@ -31,8 +31,10 @@
                     background-color: $color-secondary;
                     width: 96px;
                     height: 96px;
+                    line-height: 96px;
                     justify-content: center;
-                    align-items: center;                }
+                    align-items: center;
+                }
             }
         }
     }
@@ -80,6 +82,7 @@
 
                 .text-primary {
                     color: $color-primary;
+
                     @media (min-width: 1200px) {
                         color: $color-secondary;
                     }
@@ -276,9 +279,9 @@
             ul.social-buttons {
                 margin: ($baseline * 2) auto ($baseline * 3);
 
-                    @media (min-width: 1200px) {
-                        font-size: 25px;
-                    }
+                @media (min-width: 1200px) {
+                    font-size: 25px;
+                }
 
                 li a {
                     display: block;

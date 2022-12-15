@@ -3,6 +3,7 @@
 
 .t108-footer {
 	background-color: $color-footer;
+
 	@media (min-width: 1200px) {
 		padding-top: 80px;
 	}
@@ -20,7 +21,8 @@
 		.footer-col {
 			margin-bottom: $baseline * 3;
 
-			.contact, .tweets {
+			.contact,
+			.tweets {
 				padding-left: $padding-none;
 
 				p {
@@ -35,7 +37,7 @@
 				}
 
 				a:hover {
-					
+
 					p {
 						margin: $margin-none;
 						color: $color-primary;
@@ -44,6 +46,7 @@
 
 				.fa-twitter {
 					color: $color-primary;
+
 					@media (min-width: 1200px) {
 						color: $color-secondary;
 					}
@@ -71,11 +74,24 @@
 		}
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		color: $color-text-light;
 	}
 
 	p {
 		color: $color-text-light;
 	}
+
+	@media (min-width: 1200px) {
+		.list-inline {
+			color: $color-secondary;
+			font-size: 25px;
+		}
+	}
+
 }
